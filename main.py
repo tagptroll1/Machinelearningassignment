@@ -135,8 +135,8 @@ ridge_param = {
 }
 rid = Ridge(**ridge_param)
 rid = rid.fit(X_train, y_train)
-score_rid = rid.score(X_test, y_test)
-print("ridge score:", f"{score_rid:.2f}")
+#score_rid = rid.score(X_test, y_test)
+#print("ridge score:", f"{score_rid:.2f}")
 
 """
 lgr = LogisticRegression()
